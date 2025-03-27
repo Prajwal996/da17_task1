@@ -1,0 +1,48 @@
+create table five
+(numbers bigint,
+ columns bigint,
+ shape varchar,
+ angle varchar,
+ theoram varchar);
+ select * from five
+ insert into five(numbers,columns,shape,angle,theoram)values('45','552','oval','45','pythagoras');
+ insert into five(numbers,columns,shape,angle,theoram)values('12', '789', 'circle', '23', 'euclid'),  
+('67', '321', 'triangle', '67', 'archimedes'),  
+('89', '654', 'square', '89', 'newton'),  
+('34', '987', 'rectangle', '34', 'gauss'),  
+('78', '135', 'pentagon', '78', 'euler'),  
+('90', '246', 'hexagon', '90', 'fibonacci'),  
+('56', '579', 'octagon', '56', 'turing'),  
+('23', '468', 'rhombus', '23', 'descartes'),  
+('45', '357', 'parallelogram', '45', 'pascal'),  
+('67', '864', 'ellipse', '67', 'ramanujan'),  
+('89', '753', 'trapezium', '89', 'bernoulli'),  
+('12', '642', 'kite', '12', 'laplace'),  
+('34', '531', 'cone', '34', 'gauss'),  
+('78', '420', 'cylinder', '78', 'legendre'),  
+('90', '309', 'sphere', '90', 'hilbert'),  
+('56', '298', 'torus', '56', 'riemann'),  
+('23', '187', 'cuboid', '23', 'galois'),  
+('45', '276', 'pyramid', '45', 'abel'),  
+('67', '365', 'prism', '67', 'fourier'),  
+('89', '454', 'dodecahedron', '89', 'noether'),  
+('12', '543', 'icosahedron', '12', 'weyl'),  
+('34', '632', 'tesseract', '34', 'cartan'),  
+('78', '721', 'hyperboloid', '78', 'banach'),  
+('90', '810', 'ellipsoid', '90', 'dirichlet'),  
+('56', '999', 'mobius', '56', 'kummer'),  
+('23', '888', 'klein bottle', '23', 'abelson'),  
+('45', '777', 'hypersphere', '45', 'kronecker'),  
+('67', '666', 'paraboloid', '67', 'weierstrass'),  
+('89', '555', 'catenoid', '89', 'minkowski'),  
+('12', '444', 'helix', '12', 'gödel'),  
+('34', '333', 'hypercube', '34', 'lie'),  
+('78', '222', 'hypercone', '78', 'chebyshev'),  
+('90', '111', 'hypertorus', '90', 'grothendieck'),  
+('56', '000', 'bicorn', '56', 'mandelbrot'),  
+('23', '9999', 'astroid', '23', 'lagrange');  
+insert into five(numbers,columns,shape,theoram)values('52','7','circle','hooks');
+  
+insert into five(numbers,columns,shape,theoram)values('25', '9', 'square', 'loops'),  
+('68', '3', 'triangle', 'edges'),  
+('41', '5', 'hexagon', 'rings');  
